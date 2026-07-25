@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikos Style</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -15,30 +20,16 @@
 </header>
 
 <nav>
-    <a href="#">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
     <a href="productos.html">Productos</a>
-    <a href="#ofertas">Ofertas</a>
-    <a href="#contacto">Contacto</a>
+    <a href="ofertas.html">Ofertas</a>
+    <a href="contacto.html">Contacto</a>
 </nav>
 <section class="banner">
-    <h2>Nueva Colección 2026</h2>
+<h2>Nueva Colección 2026</h2>
     <p>Descubre las últimas tendencias de moda urbana.</p>
-</section>
-<section class="categorias">
-
-    <h2>Categorías</h2>
-
-    <div class="cards">
-
-        <div class="card">👕 Polos</div>
-
-        <div class="card">🧥 Casacas</div>
-
-        <div class="card">🧢 Hoodies</div>
-
-    </div>
-
+    <button>Ver Catálogo</button>
 </section>
 <main>
 
@@ -50,7 +41,7 @@
         </p>
     </section>
 
-    <section class="productos">
+    <section class="productos" data-aos="fade-up">
 
         <h2>Nuestros Productos</h2>
 
@@ -72,62 +63,12 @@
 
             <div class="producto">
                 <img src="https://i.pinimg.com/1200x/31/a8/39/31a839d55903387596adf61f1220fa2f.jpg" alt="Casaca Denim">
-                </h3>Casaca Denim</h3>
+                <h3>Casaca Denim</h3>
                 <p>S/ 119.90</p>
                 <button>Comprar</button>
             </div>
 
         </div>
-
-    </section>
-
-<main>
-
-    <section id="inicio">
-        
-    </section>
-
-    <section class="productos">
-
-    </section>
-    <section class="banner">
-
-    <h2>Nueva Colección 2026</h2>
-
-    <p>
-        Descubre las últimas tendencias de moda urbana.
-    </p>
-
-    <button>Ver Catálogo</button>
-
-</section>
-
-    <section id="ofertas">
-
-        <h2>Ofertas Especiales</h2>
-
-        <p>🔥 Hasta 30% de descuento en la nueva colección.</p>
-
-        <p>🛍️ Envío gratis por compras mayores a S/150.</p>
-
-    </section>
-    <section id="contacto">
-
-    <h2>Contacto</h2>
-
-    <p>📧 contacto@mikosstyles.com</p>
-    <p>📱 +51 979 084 163</p>
-
-</section>
-
-    <section id="nosotros">
-
-        <h2>Sobre Nosotros</h2>
-
-        <p>
-            Mikos Style es una tienda de moda juvenil enfocada en ofrecer
-            prendas modernas, cómodas y accesibles para todos los estilos.
-        </p>
 
     </section>
 
@@ -138,6 +79,11 @@
     <p>© 2026 Mikos Style</p>
 
 </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<script>
+AOS.init();
+</script>
 </body>
 </html>

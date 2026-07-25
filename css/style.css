@@ -12,10 +12,12 @@
 }
 
 body{
-    font-family:Arial, sans-serif;
+    font-family:'Montserrat', sans-serif;
     background-color:var(--claro);
 }
-
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
 header{
     background-color:var(--principal);
     color:white;
